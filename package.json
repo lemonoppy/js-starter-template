@@ -1,0 +1,20 @@
+{
+  "name": "js-starter-template",
+  "version": "1.0.0",
+  "description": "Starter template for JS projects",
+  "main": "src/index.js",
+  "repository": "https://github.com/lemonoppy/js-starter-template.git",
+  "author": "Nelson Kim <nelson.kim.1994@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.8.2",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "prettier": "^3.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js | pino-pretty --colorize"
+  }
+}
